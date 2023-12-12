@@ -4,7 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 import Video1 from '../assets/VideoBanner.mp4'
 
 
-const ClubTimetables = () => {
+const Timetable = () => {
   const clubsData = [
     {
       clubName: 'Cityville',
@@ -119,4 +119,4 @@ const ClubTimetables = () => {
   );
 };
 
-export default ClubTimetables;
+export default Timetable;

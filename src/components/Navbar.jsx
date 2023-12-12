@@ -12,10 +12,10 @@ const Navbar = () => {
     return (
         <div id='section2'className='flex justify-between items-center h-24 max-w-(1240px) mx-auto px-4 text-white'>
             <Link to='/future-sports' className='w-[400px] text-5xl font-bold text-[#ae3a3a]'>FUTURE SPORTS</Link>
-            <div onClick={handleNav} className='block'>
+            <div data-testid="menu-icon" onClick={handleNav} className='block'>
                 {!nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25} />}
             </div>
-            <div className= {!nav ? 'fixed z-10 left-0 top-0 w-[35%] lg:w-[20%] h-full border-r border-r-gray-900 bg-[#000300] opacity-80 ease-in-out duration-500' : 'fixed left-[-100%]'}>
+            <div data-testid="navigation-menu"className= {!nav ? 'fixed z-10 left-0 top-0 w-[35%] lg:w-[20%] h-full border-r border-r-gray-900 bg-[#000300] opacity-80 ease-in-out duration-500' : 'fixed left-[-100%]'}>
                 <h1 className='w-full text-3xl font-bold text-[#ae3a3a] m-4'>FUTURE SPORTS</h1>
                 <ul className='uppercase p-4'>
                     <li className='p-4 border-b border-gray-600'>
