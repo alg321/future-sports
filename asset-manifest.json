@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/future-sports/static/css/main.040893f0.css",
-    "main.js": "/future-sports/static/js/main.41c97e6f.js",
+    "main.js": "/future-sports/static/js/main.cbe38ea5.js",
     "static/media/VideoBanner.mp4": "/future-sports/static/media/VideoBanner.74548604e233921020b5.mp4",
     "static/media/image-7.jpg": "/future-sports/static/media/image-7.5f9112e84414d1562e1e.jpg",
     "static/media/image-1.jpg": "/future-sports/static/media/image-1.c5ed7a2fbcd4a3e94c85.jpg",
@@ -10,10 +10,10 @@
     "static/media/image-5.jpg": "/future-sports/static/media/image-5.95275cead9cb8c648755.jpg",
     "index.html": "/future-sports/index.html",
     "main.040893f0.css.map": "/future-sports/static/css/main.040893f0.css.map",
-    "main.41c97e6f.js.map": "/future-sports/static/js/main.41c97e6f.js.map"
+    "main.cbe38ea5.js.map": "/future-sports/static/js/main.cbe38ea5.js.map"
   },
   "entrypoints": [
     "static/css/main.040893f0.css",
-    "static/js/main.41c97e6f.js"
+    "static/js/main.cbe38ea5.js"
   ]
 }
