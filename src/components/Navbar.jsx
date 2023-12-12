@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div id='section2'className='flex justify-between items-center h-24 max-w-(1240px) mx-auto px-4 text-white'>
-            <Link to='/App' className='w-[400px] text-5xl font-bold text-[#ae3a3a]'>FUTURE SPORTS</Link>
+            <Link to='/future-sports' className='w-[400px] text-5xl font-bold text-[#ae3a3a]'>FUTURE SPORTS</Link>
             <div onClick={handleNav} className='block'>
                 {!nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25} />}
             </div>
@@ -19,10 +19,7 @@ const Navbar = () => {
                 <h1 className='w-full text-3xl font-bold text-[#ae3a3a] m-4'>FUTURE SPORTS</h1>
                 <ul className='uppercase p-4'>
                     <li className='p-4 border-b border-gray-600'>
-                        <Link to='/App'>Home</Link>
-                    </li>
-                    <li className='p-4 border-b border-gray-600'>
-                        <Link to='/About'>About</Link>
+                        <Link to='/future-sports'>Home</Link>
                     </li>
                     <li className='p-4 border-b border-gray-600'>
                     <Link to='/ClassTimetable'>Class Schedule</Link>
