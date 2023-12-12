@@ -45,18 +45,18 @@ const Carousel = () => {
 
   return (
     <div className="text-white flex h-full w-full items-center justify-center">
-      <div className="w-full max-w-full">
-        <ul className="flex h-[700px] gap-2">
+      <div className="w-full max-w-full lg:h-[700px]">
+        <ul className="flex flex-col lg:flex-row lg:h-[700px] gap-2">
           {classesData.map((classTitle, index) => (
             <li
               key={classTitle.title}
               className={`transition-all duration-300 ${
                 activeItem === index
-                  ? 'flex-grow hover:scale-x-120'
-                  : 'flex-shrink hover:scale-x-50'
-              } w-[160px]`}
+                  ? 'flex-grow hover:scale-x-140 lg:w-[160px]'
+                  : 'flex-shrink hover:scale-x-50 lg:w-[160px]'
+              } w-full mb-2 lg:mb-0`}
               onMouseEnter={() => setActiveItem(index)}
-              onMouseLeave={() => setActiveItem(null)}
+              onMouseLeave={() => setActiveItem(0)}
             >
               <div className="w-full h-full relative overflow-hidden rounded-2xl">
                 <img
