@@ -24,7 +24,7 @@ const Footer = () => {
                 <div>
                     <h6 className='font-medium'>Links</h6>
                     <ul>
-                        <li className='py-2 text-sm'><HashLink smooth to='/App/#section3'>Contact Us</HashLink></li>
+                        <li className='py-2 text-sm'><HashLink smooth to='/future-sports/#section3'>Contact Us</HashLink></li>
                         <a className='text-sm' href='https://maps.app.goo.gl/gsGbXEDeSN6yU76WA'>Location</a>
                         <li className='py-2 text-sm'><HashLink smooth to='/SignInPage/#section2'>Login</HashLink></li>
                         <li className='py-2 text-sm'><HashLink smooth to='/Terms/#section2'>Terms & Conditions</HashLink></li>
